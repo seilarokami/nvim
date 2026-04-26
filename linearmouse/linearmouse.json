@@ -1,0 +1,55 @@
+{
+  "$schema" : "https:\/\/schema.linearmouse.app\/0.10.0",
+  "schemes" : [
+    {
+      "pointer" : {
+        "disableAcceleration" : true,
+        "acceleration" : 1,
+        "speed" : 0.0689655172413792768
+      },
+      "if" : {
+        "device" : {
+          "category" : "mouse",
+          "productName" : "LAMZU 4K Receiver",
+          "vendorID" : "0x3554",
+          "productID" : "0xf510"
+        }
+      },
+      "scrolling" : {
+        "acceleration" : {
+          "vertical" : 1
+        },
+        "distance" : {
+          "vertical" : 3
+        },
+        "speed" : {
+          "vertical" : 0
+        }
+      }
+    },
+    {
+      "pointer" : {
+        "disableAcceleration" : true
+      },
+      "if" : {
+        "device" : {
+          "category" : "mouse",
+          "productID" : "0xf50f",
+          "productName" : "LAMZU Atlantis Pro",
+          "vendorID" : "0x3554"
+        }
+      },
+      "scrolling" : {
+        "distance" : {
+          "vertical" : 3
+        },
+        "speed" : {
+          "vertical" : 0
+        },
+        "acceleration" : {
+          "vertical" : 1
+        }
+      }
+    }
+  ]
+}
